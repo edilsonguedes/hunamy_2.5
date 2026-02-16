@@ -43,7 +43,7 @@ const Header = () => {
                                 alt="Hunamy"
                                 width={140}
                                 height={40}
-                                className="h-6 w-auto object-contain brightness-0 invert"
+                                className="h-5 w-auto object-contain brightness-0 invert"
                             />
                         </Link>
                     </div>

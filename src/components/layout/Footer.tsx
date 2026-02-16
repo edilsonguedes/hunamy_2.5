@@ -39,7 +39,7 @@ const Footer = () => {
                                 alt="Hunamy Logo"
                                 width={160}
                                 height={45}
-                                className="h-7 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+                                className="h-5 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
                             />
                         </Link>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-xs font-quicksand">
