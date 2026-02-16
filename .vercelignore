@@ -1,0 +1,11 @@
+# Local development
+.env*.local
+.next
+node_modules
+
+# Testing
+coverage
+
+# Misc
+.DS_Store
+*.pem
