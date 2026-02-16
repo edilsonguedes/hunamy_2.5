@@ -5,11 +5,11 @@ import SectionContainer from "../ui/SectionContainer";
 
 const HeroSection = () => {
     return (
-        <section className="relative min-h-screen flex items-center bg-gradient-to-br from-grafite-50 via-white to-anil-50 overflow-hidden">
+        <section className="relative min-h-screen flex items-center bg-black overflow-hidden pt-20">
             {/* Background subtle pattern */}
-            <div className="absolute inset-0 opacity-5">
-                <div className="absolute top-20 right-20 w-96 h-96 bg-anil-500 rounded-full blur-3xl"></div>
-                <div className="absolute bottom-20 left-20 w-96 h-96 bg-grafite-800 rounded-full blur-3xl"></div>
+            <div className="absolute inset-0 opacity-20">
+                <div className="absolute top-20 right-20 w-96 h-96 bg-anil-600/20 rounded-full blur-[100px]"></div>
+                <div className="absolute bottom-20 left-20 w-96 h-96 bg-purple-900/20 rounded-full blur-[100px]"></div>
             </div>
 
             <SectionContainer maxWidth="xl" padding="xl" className="relative z-10">
@@ -17,25 +17,25 @@ const HeroSection = () => {
                     {/* Left Content */}
                     <div className="space-y-8 text-center lg:text-left">
                         {/* Badge */}
-                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-anil-50 text-anil-700 rounded-full text-sm font-medium">
-                            <Sparkles className="w-4 h-4" />
+                        <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 text-grafite-100 rounded-full text-sm font-medium backdrop-blur-sm">
+                            <Sparkles className="w-4 h-4 text-anil-400" />
                             <span>Potencializamos Criatividade Humana com IA</span>
                         </div>
 
                         {/* Main Heading */}
-                        <h1 className="font-bricolage font-bold text-4xl md:text-5xl lg:text-6xl text-grafite-900 leading-tight">
+                        <h1 className="font-bricolage font-bold text-4xl md:text-5xl lg:text-7xl text-white leading-tight tracking-tight">
                             Transformação{" "}
-                            <span className="bg-gradient-tech bg-clip-text text-transparent">
+                            <span className="bg-gradient-to-b from-white via-gray-200 to-gray-500 bg-clip-text text-transparent block mt-2 pb-2">
                                 Positiva
                             </span>{" "}
-                            Através da Inteligência Artificial
+                            com Inteligência Artificial
                         </h1>
 
                         {/* Subheading */}
-                        <p className="text-lg md:text-xl text-grafite-600 leading-relaxed max-w-2xl">
-                            Soluções completas de <strong>marketing digital</strong>,{" "}
-                            <strong>branding</strong> e <strong>tecnologia</strong> que
-                            ampliam sua criatividade e geram conexões genuínas.
+                        <p className="text-lg md:text-xl text-grafite-300 leading-relaxed max-w-2xl">
+                            Soluções completas de <strong className="text-white font-semibold">marketing digital</strong>,{" "}
+                            <strong className="text-white font-semibold">branding</strong> e <strong className="text-white font-semibold">tecnologia</strong> que
+                            ampliam sua criatividade.
                         </p>
 
                         {/* CTAs */}

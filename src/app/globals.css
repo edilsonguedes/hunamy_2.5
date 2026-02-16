@@ -2,10 +2,10 @@
 
 /* CSS Variables for Hunamy Brand */
 :root {
-  --background: #FFFFFF;
-  --foreground: #000000;
-  --grafite: #2A2A2A;
-  --anil: #0066CC;
+  --background: #000000;
+  --foreground: #FFFFFF;
+  --grafite: #A3A3A3;
+  --anil: #3B9EFF;
 }
 
 /* Smooth scrolling behavior */

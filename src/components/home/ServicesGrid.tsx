@@ -59,11 +59,11 @@ const ServicesGrid = () => {
             <div className="space-y-12">
                 {/* Section Header */}
                 <div className="text-center max-w-3xl mx-auto space-y-4">
-                    <h2 className="font-bricolage font-bold text-3xl md:text-4xl text-grafite-900">
-                        Noss os 5 Pilares de{" "}
-                        <span className="text-anil-500">Transformação</span>
+                    <h2 className="font-bricolage font-bold text-3xl md:text-4xl text-white">
+                        Nossos 5 Pilares de{" "}
+                        <span className="text-anil-400">Transformação</span>
                     </h2>
-                    <p className="text-lg text-grafite-600">
+                    <p className="text-lg text-grafite-400">
                         Soluções completas que cobrem todas as necessidades do seu negócio,
                         da estratégia à execução.
                     </p>
@@ -77,23 +77,23 @@ const ServicesGrid = () => {
                             <Card
                                 key={service.id}
                                 hover
-                                className="group"
+                                className="group bg-grafite-900/50 border border-white/5 hover:border-anil-500/30"
                                 style={{
                                     animationDelay: `${index * 100}ms`,
                                 }}
                             >
                                 <Link href={service.href} className="block space-y-4">
                                     {/* Icon */}
-                                    <div className="w-14 h-14 bg-anil-50 rounded-xl flex items-center justify-center group-hover:bg-anil-500 transition-colors">
-                                        <Icon className="w-7 h-7 text-anil-500 group-hover:text-white transition-colors" />
+                                    <div className="w-14 h-14 bg-white/5 rounded-xl flex items-center justify-center group-hover:bg-anil-600 transition-colors">
+                                        <Icon className="w-7 h-7 text-anil-400 group-hover:text-white transition-colors" />
                                     </div>
 
                                     {/* Content */}
                                     <div className="space-y-2">
-                                        <h3 className="font-bricolage font-semibold text-xl text-grafite-900 group-hover:text-anil-600 transition-colors">
+                                        <h3 className="font-bricolage font-semibold text-xl text-white group-hover:text-anil-400 transition-colors">
                                             {service.title}
                                         </h3>
-                                        <p className="text-grafite-600 leading-relaxed text-sm">
+                                        <p className="text-grafite-400 leading-relaxed text-sm">
                                             {service.description}
                                         </p>
                                     </div>

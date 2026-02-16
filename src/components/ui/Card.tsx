@@ -27,7 +27,7 @@ const Card: FC<CardProps> = ({
     return (
         <div
             className={cn(
-                "bg-white rounded-lg shadow-soft-sm transition-all duration-300",
+                "bg-grafite-900 rounded-lg shadow-soft-sm transition-all duration-300",
                 paddingClasses[padding],
                 hoverClasses,
                 className

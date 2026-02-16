@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -33,16 +33,17 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
                     {/* Column 1: About */}
                     <div className="space-y-4">
-                        <Image
-                            src="/logo.png"
-                            alt="Hunamy Logo"
-                            width={140}
-                            height={40}
-                            className="h-10 w-auto brightness-0 invert"
-                        />
-                        <p className="text-grafite-300 text-sm leading-relaxed">
-                            Potencializamos Criatividade Humana em Transformação Positiva com
-                            IA
+                        <Link href="/">
+                            <Image
+                                src="/logo-new.png"
+                                alt="Hunamy Logo"
+                                width={160}
+                                height={45}
+                                className="h-9 w-auto object-contain brightness-0 invert opacity-90 hover:opacity-100 transition-opacity"
+                            />
+                        </Link>
+                        <p className="text-grafite-400 text-sm leading-relaxed max-w-xs">
+                            Potencializamos Criatividade Humana em Transformação Positiva com Inteligência Artificial.
                         </p>
                         <div className="space-y-2 text-sm text-grafite-400">
                             <div className="flex items-start gap-2">

@@ -32,8 +32,8 @@ const Header = () => {
             className={cn(
                 "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
                 isScrolled
-                    ? "bg-white shadow-soft-md py-3"
-                    : "bg-white/95 backdrop-blur-sm py-4"
+                    ? "bg-black/90 shadow-soft-md py-3 backdrop-blur-md border-b border-white/10"
+                    : "bg-transparent py-4"
             )}
         >
             <div className="max-w-screen-xl mx-auto px-4 md:px-6">
@@ -41,11 +41,11 @@ const Header = () => {
                     {/* Logo */}
                     <Link href="/" className="flex items-center">
                         <Image
-                            src="/logo.png"
+                            src="/logo-new.png"
                             alt="Hunamy Logo"
-                            width={140}
-                            height={40}
-                            className="h-10 w-auto transition-opacity hover:opacity-80"
+                            width={180}
+                            height={50}
+                            className="h-10 w-auto object-contain transition-opacity hover:opacity-80"
                             priority
                         />
                     </Link>
@@ -56,7 +56,7 @@ const Header = () => {
                             <Link
                                 key={link.href}
                                 href={link.href}
-                                className="text-grafite-700 hover:text-anil-500 font-dmsans font-medium text-sm transition-colors"
+                                className="text-grafite-300 hover:text-white font-dmsans font-medium text-sm transition-colors"
                             >
                                 {link.label}
                             </Link>
