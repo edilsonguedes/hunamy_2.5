@@ -6,31 +6,31 @@ export default function MethodSection() {
             phase: "01",
             title: "Humano no Centro",
             description: "Entendemos a PESSOA por trás da empresa. Respeitamos e amplificamos a identidade única.",
-            image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=2000&auto=format&fit=crop", // Portrait Close-up
         },
         {
             phase: "02",
             title: "Criatividade Potencializada",
             description: "IA como expansão, não substituição. Intuição humana + capacidade computacional.",
-            image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=2000&auto=format&fit=crop", // Female portrait with nice lighting
         },
         {
             phase: "03",
             title: "Transformação Positiva",
             description: "Medimos sucesso em impacto real. Bem-estar, crescimento e uso ético de IA.",
-            image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=2000&auto=format&fit=crop", // Male portrait authentic
         },
         {
             phase: "04",
             title: "Excelência Técnica",
             description: "Dominamos as ferramentas, mas o propósito fala mais alto. Inovação constante.",
-            image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=2000&auto=format&fit=crop", // Female portrait professional
         },
         {
             phase: "05",
             title: "Conexão Emocional",
             description: "Comunicação que toca o coração. Narrativas que geram identificação profunda.",
-            image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1932&auto=format&fit=crop",
+            image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2000&auto=format&fit=crop", // Smiling man portrait
         },
     ];
 
