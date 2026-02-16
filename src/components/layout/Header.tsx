@@ -28,28 +28,34 @@ const Header = () => {
     return (
         <nav
             className={cn(
-                "fixed w-full z-50 transition-all duration-300 border-b border-transparent",
+                "fixed top-0 left-0 w-full z-50 transition-all duration-300 border-b border-white/5",
                 isScrolled
-                    ? "bg-black/80 backdrop-blur-md border-b border-white/5 top-0 left-0 shadow-lg"
-                    : "bg-black/20 backdrop-blur-sm py-4 border-white/5"
+                    ? "bg-black/60 backdrop-blur-xl py-2 shadow-2xl"
+                    : "bg-transparent py-4"
             )}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center justify-between h-20">
+                <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0 flex items-center">
-                        <Link href="/" className="font-heading text-2xl font-bold tracking-tighter text-white">
-                            hunamy
+                        <Link href="/">
+                            <Image
+                                src="/logo-new.png"
+                                alt="Hunamy"
+                                width={140}
+                                height={40}
+                                className="h-8 w-auto object-contain brightness-0 invert"
+                            />
                         </Link>
                     </div>
 
                     {/* Desktop Nav */}
                     <div className="hidden md:flex justify-center flex-1">
-                        <div className="bg-[#1a1a1a]/80 backdrop-blur-sm border border-white/5 rounded-full px-8 py-3 flex items-center space-x-8 shadow-lg">
+                        <div className="flex items-center space-x-8">
                             {navLinks.map((link) => (
                                 <Link
                                     key={link.href}
                                     href={link.href}
-                                    className="text-sm font-medium text-gray-300 hover:text-white transition-colors font-quicksand"
+                                    className="text-sm font-medium text-gray-300 hover:text-white transition-colors font-quicksand tracking-wide"
                                 >
                                     {link.label}
                                 </Link>
@@ -73,7 +79,7 @@ const Header = () => {
                     <div className="hidden md:block">
                         <Link
                             href="/contato"
-                            className="inline-flex items-center justify-center px-6 py-2 border border-transparent text-sm font-medium rounded-full text-white bg-indigo-600 hover:bg-indigo-700 transition-colors shadow-[0_0_15px_rgba(79,70,229,0.3)] font-quicksand"
+                            className="inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-bold rounded-full text-black bg-white hover:bg-gray-200 transition-colors shadow-lg font-quicksand"
                         >
                             Falar com Especialista
                         </Link>
@@ -84,7 +90,7 @@ const Header = () => {
             {/* Mobile Menu Overlay */}
             <div
                 className={cn(
-                    "md:hidden fixed top-0 left-0 w-full bg-black/95 backdrop-blur-xl border-b border-white/10 h-screen transition-transform duration-300 ease-in-out z-40",
+                    "md:hidden fixed top-0 left-0 w-full bg-black/95 backdrop-blur-2xl border-b border-white/10 h-screen transition-transform duration-300 ease-in-out z-40",
                     isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
                 )}
                 style={{ top: "0", paddingTop: "80px" }}
@@ -102,7 +108,7 @@ const Header = () => {
                     ))}
                     <Link
                         href="/contato"
-                        className="w-full mt-8 bg-indigo-600 text-white font-bold py-4 rounded-full text-center text-lg shadow-[0_0_20px_rgba(79,70,229,0.5)] font-quicksand"
+                        className="w-full mt-8 bg-white text-black font-bold py-4 rounded-full text-center text-lg shadow-xl font-quicksand"
                         onClick={() => setIsMobileMenuOpen(false)}
                     >
                         Falar com Especialista

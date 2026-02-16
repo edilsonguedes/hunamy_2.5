@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Quicksand, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 // Font configurations
 const quicksand = Quicksand({
@@ -34,7 +36,9 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" />
       </head>
       <body className="antialiased bg-background text-foreground overflow-x-hidden selection:bg-indigo-500 selection:text-white font-quicksand">
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
