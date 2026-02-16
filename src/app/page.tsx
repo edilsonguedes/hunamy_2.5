@@ -1,26 +1,15 @@
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/home/HeroSection";
-import ServicesGrid from "@/components/home/ServicesGrid";
-import FaqAccordion from "@/components/home/FaqAccordion";
-import CtaSection from "@/components/home/CtaSection";
+import ServicesCarousel from "@/components/home/ServicesCarousel";
+import MethodSection from "@/components/home/MethodSection";
+import FaqSection from "@/components/home/FaqSection";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <Header />
-
+    <main>
       <HeroSection />
-
-      <ServicesGrid />
-
-      <CtaSection />
-
-      <FaqAccordion />
-
-      <CtaSection />
-
-      <Footer />
+      <ServicesCarousel />
+      <MethodSection />
+      <FaqSection />
     </main>
   );
 }

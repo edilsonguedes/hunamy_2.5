@@ -1,73 +1,26 @@
 import type { Metadata } from "next";
-import { Archivo, Bricolage_Grotesque, DM_Sans } from "next/font/google";
+import { Quicksand, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 // Font configurations
-const archivo = Archivo({
-  variable: "--font-archivo",
+const quicksand = Quicksand({
+  variable: "--font-quicksand",
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
-const bricolage = Bricolage_Grotesque({
-  variable: "--font-bricolage",
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  display: "swap",
-});
-
-const dmSans = DM_Sans({
-  variable: "--font-dmsans",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Hunamy - Marketing e Inteligência Artificial",
-  description:
-    "Potencializamos criatividade humana através da inteligência artificial para gerar transformação positiva. Soluções completas de marketing digital, branding e tecnologia.",
-  keywords: [
-    "marketing digital",
-    "inteligência artificial",
-    "branding",
-    "desenvolvimento web",
-    "automação",
-    "chatbots",
-    "agência digital",
-    "Aracaju",
-  ],
-  authors: [{ name: "Hunamy" }],
-  creator: "Hunamy",
-  publisher: "Hunamy",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  openGraph: {
-    type: "website",
-    locale: "pt_BR",
-    siteName: "Hunamy",
-    title: "Hunamy - Marketing e Inteligência Artificial",
-    description:
-      "Potencializamos criatividade humana através da inteligência artificial",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  icons: {
-    icon: "/favicon.ico",
-  },
+  title: "Hunamy - Criatividade Humana e IA",
+  description: "Potencializamos a criatividade humana com Inteligência Artificial para gerar transformação positiva no mundo.",
+  keywords: ["IA", "Criatividade", "Marketing", "Branding", "Tecnologia", "Inovação"],
 };
 
 export default function RootLayout({
@@ -76,10 +29,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="scroll-smooth">
-      <body
-        className={`${archivo.variable} ${bricolage.variable} ${dmSans.variable} font-archivo antialiased`}
-      >
+    <html lang="pt-BR" className={`${quicksand.variable} ${spaceGrotesk.variable}`}>
+      <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" />
+      </head>
+      <body className="antialiased bg-background text-foreground overflow-x-hidden selection:bg-indigo-500 selection:text-white font-quicksand">
         {children}
       </body>
     </html>
