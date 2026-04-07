@@ -45,10 +45,6 @@ export default function FaqSection() {
                                 a: "Potencializamos a criatividade humana com Inteligência Artificial para gerar transformação positiva no mundo. Criamos estratégias, identidades visuais e soluções tecnológicas que unem o melhor da intuição humana com a capacidade computacional da IA."
                             },
                             {
-                                q: "Como funciona o Método Hunamy?",
-                                a: "Nosso método é dividido em 5 fases essenciais: Humano no Centro, Criatividade Potencializada, Transformação Positiva, Excelência Técnica e Conexão Emocional."
-                            },
-                            {
                                 q: "A IA substitui o trabalho humano?",
                                 a: "Definitivamente não. Na Hunamy, acreditamos que a Inteligência Artificial é uma ferramenta de amplificação, não de substituição. Ela serve para estender as capacidades humanas."
                             },

@@ -22,7 +22,6 @@ const Header = () => {
         { label: "Home", href: "/" },
         { label: "Sobre", href: "/sobre" },
         { label: "Serviços", href: "/servicos" },
-        { label: "Método", href: "/#metodo" },
     ];
 
     return (

@@ -32,7 +32,7 @@ const FaqAccordion = () => {
         {
             question: "Como funciona o processo de trabalho?",
             answer:
-                "Seguimos nosso Método Hunamy de 5 fases: Descoberta (entendemos seu negócio), Estratégia (desenhamos o plano), Execução (colocamos em prática), Otimização (refinamos com base em dados) e Escala (expandimos o que funciona).",
+                "Nosso processo é estruturado para garantir resultados concretos: começamos por uma imersão no seu negócio, passando para o planejamento estratégico, execução da solução, otimização com base em dados e expansão do que funciona.",
         },
         {
             question: "Vocês fazem manutenção após a entrega?",
