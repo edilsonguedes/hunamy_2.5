@@ -76,7 +76,7 @@ export default function FaqSection() {
                     <h2 className="text-4xl sm:text-5xl font-bold font-heading text-white mb-6">Pronto para potencializar sua criatividade?</h2>
                     <p className="text-xl text-indigo-200 mb-10 max-w-2xl mx-auto font-quicksand">Vamos transformar sua visão em realidade. Agende uma conversa estratégica de 30 minutos sem compromisso.</p>
 
-                    <a href="/contato" className="inline-flex items-center justify-center px-10 py-5 border border-transparent text-lg font-bold rounded-full text-white bg-indigo-600 hover:bg-indigo-700 transition-all hover:scale-105 shadow-[0_0_30px_rgba(79,70,229,0.5)] w-full sm:w-auto font-heading">
+                    <a href="https://wa.me/5579981164514" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-10 py-5 border border-transparent text-lg font-bold rounded-full text-white bg-indigo-600 hover:bg-indigo-700 transition-all hover:scale-105 shadow-[0_0_30px_rgba(79,70,229,0.5)] w-full sm:w-auto font-heading">
                         Agendar Diagnóstico Gratuito
                         <ArrowRight className="ml-2 w-5 h-5" />
                     </a>

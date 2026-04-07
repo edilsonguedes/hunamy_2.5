@@ -115,7 +115,7 @@ const ServicesGrid = () => {
                         Não sabe por onde começar? Nós te ajudamos
                     </p>
                     <Link
-                        href="/contato"
+                        href="https://wa.me/5579981164514" target="_blank" rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 text-anil-500 hover:text-anil-600 font-medium underline underline-offset-4"
                     >
                         Agendar Diagnóstico Gratuito

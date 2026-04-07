@@ -22,7 +22,7 @@ const CtaSection = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
-                        <Link href="/contato">
+                        <a href="https://wa.me/5579981164514" target="_blank" rel="noopener noreferrer">
                             <Button
                                 variant="secondary"
                                 size="lg"
@@ -30,8 +30,7 @@ const CtaSection = () => {
                             >
                                 Agendar Diagnóstico Gratuito
                                 <ArrowRight className="w-5 h-5" />
-                            </Button>
-                        </Link>
+                        </a>
                     </div>
 
                     <p className="text-sm text-anil-100 pt-2">

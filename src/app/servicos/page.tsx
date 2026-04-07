@@ -165,7 +165,7 @@ export default function ServicosPage() {
                         negócio e recomendar os melhores caminhos.
                     </p>
                     <a
-                        href="/contato"
+                        href="https://wa.me/5579981164514" target="_blank" rel="noopener noreferrer"
                         className="inline-block bg-white text-anil-600 px-8 py-4 rounded-lg font-dmsans font-semibold hover:bg-anil-50 transition-colors"
                     >
                         Agendar Diagnóstico Gratuito

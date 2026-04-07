@@ -31,7 +31,7 @@ const HeroSection = () => {
                 {/* Buttons */}
                 <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-4 sm:px-0 justify-center">
                     <Link
-                        href="/contato"
+                        href="https://wa.me/5579981164514" target="_blank" rel="noopener noreferrer"
                         className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-indigo-600 hover:bg-indigo-700 md:text-lg transition-all hover:scale-105 shadow-[0_0_20px_rgba(79,70,229,0.4)] font-quicksand"
                     >
                         Comece a Transformação

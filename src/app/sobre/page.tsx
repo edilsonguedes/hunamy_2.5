@@ -189,7 +189,7 @@ export default function SobrePage() {
                         </p>
                     </div>
                     <div className="mt-20">
-                        <a className="inline-flex items-center px-8 py-4 border border-white/20 hover:border-white/50 bg-white/5 hover:bg-white/10 rounded-full text-white font-medium transition-all duration-300 backdrop-blur-sm" href="/contato">
+                        <a className="inline-flex items-center px-8 py-4 border border-white/20 hover:border-white/50 bg-white/5 hover:bg-white/10 rounded-full text-white font-medium transition-all duration-300 backdrop-blur-sm" href="https://wa.me/5579981164514" target="_blank" rel="noopener noreferrer">
                             Junte-se ao Movimento
                             <svg className="ml-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path d="M17 8l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>

@@ -77,7 +77,7 @@ const Header = () => {
                     {/* CTA Button */}
                     <div className="hidden md:block">
                         <Link
-                            href="/contato"
+                            href="https://wa.me/5579981164514" target="_blank" rel="noopener noreferrer"
                             className="inline-flex items-center justify-center px-6 py-2.5 border border-transparent text-sm font-bold rounded-full text-black bg-white hover:bg-gray-200 transition-colors shadow-lg font-quicksand"
                         >
                             Falar com Especialista

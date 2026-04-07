@@ -22,7 +22,7 @@ const Footer = () => {
             { label: "FAQ", href: "#" },
             { label: "Política de Privacidade", href: "#" },
             { label: "Termos de Uso", href: "#" },
-            { label: "Contato", href: "/contato" },
+            { label: "Contato", href: "https://wa.me/5579981164514" },
         ],
     };
 
