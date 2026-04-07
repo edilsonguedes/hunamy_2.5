@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
     title: "Sobre Nós | Hunamy - Nossa História e Propósito",
@@ -11,8 +9,6 @@ export const metadata: Metadata = {
 export default function SobrePage() {
     return (
         <main className="min-h-screen bg-grafite-50 dark:bg-black text-grafite-900 dark:text-gray-100 font-sans antialiased transition-colors duration-300">
-            <Header />
-
             {/* HERO SECTION */}
             <header className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
                 <div className="absolute inset-0 z-0">
@@ -197,8 +193,6 @@ export default function SobrePage() {
                     </div>
                 </div>
             </section>
-
-            <Footer />
         </main>
     );
 }
