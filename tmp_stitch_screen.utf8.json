@@ -1,0 +1,25 @@
+{
+  "screenshot": {
+    "name": "projects/8740125726240513792/files/8bd190bb2f0a4caba44a8a39f589bef1",
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/ADBb0uhBLbNoMRfAA4vS-JaCiscBdb_O3AkQ9tCiDhVS6pvvMVVQopzGS3zIW-0IIE9qFRq0N7IO4_TVKeCIbUpnpNs4iQA7RaeMfL5Sq3sHvl9bIKC2Due91WpR_vhbFysCZlGgAPYC4Ny76drNJefh9M-pTIQRBF-M48ViGtW6N3VLpCCzFtGLazPEa67mh-h-yfuPwPjYBCZ3UMSGxbBVToS_Een_YfbiRxQ1sTEmBD92za5Ul-i-drXO-A"
+  },
+  "htmlCode": {
+    "name": "projects/8740125726240513792/files/749323fb36764dbfaf71de1153ba70aa",
+    "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzViODc2MDY1ZDdjMTRkZmY5ZjEzNjU0ZTE2OTc5Yjc5EgsSBxCTs5SIwxMYAZIBIwoKcHJvamVjdF9pZBIVQhM4NzQwMTI1NzI2MjQwNTEzNzky&filename=&opi=89354086",
+    "mimeType": "text/html"
+  },
+  "id": "dccd47cdf62a47c0aa335ea049d4d6bd",
+  "generatedBy": "image_to_code_agent",
+  "width": "2560",
+  "height": "9452",
+  "title": "Hunamy About Us - Variant 3",
+  "prompt": "Title: Hunamy About Us - Variant 3\nContext: Redesign of the 'Sobre N├│s' (About Us) page for Hunamy, a marketing agency focused on human creativity powered by AI. Theme: Modern, futuristic, dark mode with indigo gradients.\nDescription of the screen: Desktop 'About Us' page for Hunamy, variant 3 of 3. \n1. Hero Section: Minimalist and spacious. Centered white text on a deep indigo gradient background that pulses slowly.\n2. Split-Screen Story: Left side features the text 'Nossa Hist├│ria', right side shows a high-quality abstract image representing 'Humanity + Tech'.\n3. Identity Grid: A sophisticated bento-box style layout for Purpose, Vision, and Mission, using different shades of dark gray and indigo to create depth.\n4. Values: Icons are replaced by large, bold numbers or symbols, creating a very modern, editorial look.\n5. Manifesto: Large typography that takes up the full width of the screen, creating a powerful statement.\nDesign style: Sophisticated, editorial, and minimalist. Focuses on clarity and high-end brand positioning.\nPlatform: web\nForm factor: desktop",
+  "name": "projects/8740125726240513792/screens/dccd47cdf62a47c0aa335ea049d4d6bd",
+  "theme": {},
+  "deviceType": "DESKTOP",
+  "screenType": "DESIGN",
+  "screenMetadata": {
+    "agentType": "PRO_AGENT",
+    "status": "COMPLETE"
+  }
+}
