@@ -74,21 +74,22 @@ export default function SobrePage() {
                         <p className="text-center text-gray-600 dark:text-gray-400 mt-4">Os pilares que sustentam nossa existência.</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(300px,auto)]">
-                        <div className="md:col-span-2 relative group overflow-hidden rounded-2xl p-8 md:p-12 bg-white dark:bg-[#0f0f13] border border-gray-200 dark:border-white/5 shadow-lg hover:shadow-anil-500/10 transition-shadow duration-300">
-                            <div className="absolute top-0 right-0 w-64 h-64 bg-anil-500/5 rounded-full blur-3xl -mr-16 -mt-16 transition-opacity group-hover:opacity-100 opacity-50"></div>
+                        {/* Propósito */}
+                        <div className="md:col-span-2 relative group overflow-hidden rounded-2xl p-8 md:p-12 hover:shadow-indigo-500/20 transition-all duration-300 bg-white dark:bg-gradient-to-br dark:from-[#08080c] dark:to-indigo-950/30 border border-gray-200 dark:border-indigo-500/10 dark:hover:border-indigo-500/30">
+                            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl -mr-16 -mt-16 transition-opacity group-hover:opacity-100 opacity-50 dark:bg-indigo-500/20"></div>
                             <div className="relative z-10 h-full flex flex-col justify-between">
                                 <div>
-                                    <div className="w-12 h-12 rounded-full bg-anil-100 dark:bg-anil-900/30 flex items-center justify-center mb-6">
-                                        <svg className="w-6 h-6 text-anil-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <div className="w-12 h-12 rounded-full bg-indigo-100 dark:bg-indigo-900/40 flex items-center justify-center mb-6 border border-transparent dark:border-indigo-500/20">
+                                        <svg className="w-6 h-6 text-indigo-500 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path d="M13 10V3L4 14h7v7l9-11h-7z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
                                         </svg>
                                     </div>
                                     <h3 className="text-2xl font-bricolage font-bold text-gray-900 dark:text-white mb-4">Propósito</h3>
-                                    <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed max-w-xl">
+                                    <p className="text-gray-600 dark:text-indigo-100/70 text-lg leading-relaxed max-w-xl group-hover:text-white transition-colors">
                                         Amplificar a criatividade humana através da inteligência artificial para gerar transformação positiva no mundo. Não usamos tecnologia por usar, usamos para elevar o potencial humano.
                                     </p>
                                 </div>
-                                <div className="mt-8 flex items-center text-anil-500 font-medium">
+                                <div className="mt-8 flex items-center text-indigo-500 dark:text-indigo-400 font-medium cursor-pointer">
                                     <span>Ler manifesto</span>
                                     <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path d="M17 8l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
@@ -97,11 +98,13 @@ export default function SobrePage() {
                             </div>
                         </div>
 
-                        <div className="relative group overflow-hidden rounded-2xl p-8 bg-anil-600 dark:bg-anil-500 border border-transparent shadow-lg text-white">
-                            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+                        {/* Visão */}
+                        <div className="relative group overflow-hidden rounded-2xl p-8 bg-gradient-to-br from-indigo-500 to-indigo-700 dark:from-indigo-600 dark:to-indigo-900 border border-transparent dark:border-indigo-400/20 shadow-lg text-white hover:shadow-indigo-500/30 transition-shadow">
+                            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10 mix-blend-overlay"></div>
+                            <div className="absolute -bottom-10 right-0 w-32 h-32 bg-white/10 blur-2xl rounded-full"></div>
                             <div className="relative z-10 h-full flex flex-col justify-between">
                                 <div>
-                                    <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mb-6 backdrop-blur-sm">
+                                    <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center mb-6 backdrop-blur-sm shadow-inner">
                                         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
                                             <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
@@ -115,24 +118,25 @@ export default function SobrePage() {
                             </div>
                         </div>
 
-                        <div className="md:col-span-3 relative group overflow-hidden rounded-2xl p-8 md:p-12 bg-gray-50 dark:bg-[#0A0A0E] border border-gray-200 dark:border-white/5 shadow-lg">
+                        {/* Missão */}
+                        <div className="md:col-span-3 relative group overflow-hidden rounded-2xl p-8 md:p-12 hover:shadow-indigo-500/20 transition-all duration-300 bg-gray-50 dark:bg-gradient-to-r dark:from-[#050508] dark:to-indigo-950/20 border border-gray-200 dark:border-indigo-500/10 dark:hover:border-indigo-500/30 shadow-lg">
                             <div className="grid md:grid-cols-2 gap-8 items-center">
-                                <div>
-                                    <div className="w-12 h-12 rounded-full bg-anil-100 dark:bg-anil-900/30 flex items-center justify-center mb-6">
-                                        <svg className="w-6 h-6 text-anil-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <div className="relative z-10">
+                                    <div className="w-12 h-12 rounded-full bg-indigo-100 dark:bg-indigo-900/40 flex items-center justify-center mb-6 border border-transparent dark:border-indigo-500/20">
+                                        <svg className="w-6 h-6 text-indigo-500 dark:text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                             <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path>
                                         </svg>
                                     </div>
                                     <h3 className="text-2xl font-bricolage font-bold text-gray-900 dark:text-white mb-4">Missão</h3>
-                                    <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+                                    <p className="text-gray-600 dark:text-indigo-100/70 text-lg leading-relaxed group-hover:text-white transition-colors">
                                         Desenvolver soluções inteligentes e emocionais que potencializam criatividade e geram conexões genuínas.
                                     </p>
                                 </div>
-                                <div className="h-full min-h-[200px] rounded-xl bg-gradient-to-br from-anil-900 to-black relative overflow-hidden flex items-center justify-center p-6">
-                                    <div className="absolute w-32 h-32 bg-anil-500/30 rounded-full blur-2xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
+                                <div className="h-full min-h-[200px] rounded-xl bg-gradient-to-br from-indigo-900 to-black dark:from-indigo-900/80 dark:to-[#020205] relative overflow-hidden flex items-center justify-center p-6 border border-transparent dark:border-indigo-500/20 shadow-[inset_0_0_20px_rgba(79,70,229,0.2)]">
+                                    <div className="absolute w-40 h-40 bg-indigo-500/40 rounded-full blur-3xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 animate-pulse"></div>
                                     <div className="text-center relative z-10">
-                                        <span className="block text-4xl md:text-5xl font-bold text-white mb-2">+250%</span>
-                                        <span className="text-indigo-200 text-sm uppercase tracking-wider">Eficiência Criativa</span>
+                                        <span className="block text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-indigo-300 bg-clip-text text-transparent mb-2">+250%</span>
+                                        <span className="text-indigo-200 text-sm uppercase tracking-widest font-semibold font-quicksand">Eficiência Criativa</span>
                                     </div>
                                 </div>
                             </div>
