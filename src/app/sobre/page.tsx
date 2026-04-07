@@ -12,14 +12,14 @@ export default function SobrePage() {
             {/* HERO SECTION */}
             <header className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
                 <div className="absolute inset-0 z-0">
-                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-anil-900/40 via-black to-black animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite]"></div>
-                    <div className="absolute bottom-0 right-0 w-1/3 h-1/3 bg-anil-500/10 blur-[120px] rounded-full"></div>
-                    <div className="absolute top-20 left-10 w-1/4 h-1/4 bg-blue-600/10 blur-[100px] rounded-full"></div>
+                    <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-indigo-600/30 via-black to-black animate-[pulse_6s_cubic-bezier(0.4,0,0.6,1)_infinite]"></div>
+                    <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-indigo-500/20 blur-[150px] rounded-full pointer-events-none"></div>
+                    <div className="absolute top-20 left-10 w-1/3 h-1/3 bg-blue-500/20 blur-[150px] rounded-full pointer-events-none"></div>
                 </div>
                 <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="font-bricolage text-5xl md:text-7xl font-bold tracking-tight mb-8 leading-tight">
                         <span className="block text-gray-900 dark:text-white">Não Somos Só uma Agência.</span>
-                        <span className="block bg-gradient-to-br from-white to-anil-300 bg-clip-text text-transparent">Somos um Movimento.</span>
+                        <span className="block bg-gradient-to-r from-indigo-400 via-indigo-300 to-indigo-600 bg-clip-text text-transparent">Somos um Movimento.</span>
                     </h1>
                     <p className="mt-6 max-w-2xl mx-auto text-lg md:text-xl text-gray-600 dark:text-gray-300 leading-relaxed font-light">
                         Acreditamos que a verdadeira inovação nasce da mente humana. <br className="hidden md:block"/>
@@ -166,14 +166,15 @@ export default function SobrePage() {
 
             {/* MANIFESTO */}
             <section className="py-32 bg-black text-white relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-anil-900/20 to-transparent"></div>
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-indigo-900/40 via-black to-black"></div>
+                <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-2/3 h-1/2 bg-indigo-600/20 blur-[150px] rounded-full pointer-events-none"></div>
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
                     <h2 className="text-sm font-medium tracking-[0.3em] uppercase text-anil-500 mb-12">Nosso Manifesto</h2>
                     <div className="space-y-12 font-bricolage">
                         <p className="text-2xl md:text-4xl lg:text-5xl font-light leading-tight">
                             Em uma era que celebra máquinas,
                         </p>
-                        <p className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight bg-gradient-to-br from-white to-anil-300 bg-clip-text text-transparent">
+                        <p className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight bg-gradient-to-r from-indigo-400 via-indigo-300 to-indigo-600 bg-clip-text text-transparent">
                             Celebramos quem programa as máquinas.
                         </p>
                         <p className="text-2xl md:text-4xl lg:text-5xl font-light leading-tight text-gray-400">
