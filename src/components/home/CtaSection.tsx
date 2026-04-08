@@ -30,6 +30,7 @@ const CtaSection = () => {
                             >
                                 Agendar Diagnóstico Gratuito
                                 <ArrowRight className="w-5 h-5" />
+                            </Button>
                         </a>
                     </div>
 
