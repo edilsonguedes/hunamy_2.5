@@ -6,7 +6,7 @@ import Footer from "@/components/layout/Footer";
 import SectionContainer from "@/components/ui/SectionContainer";
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
-import { Mail, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, Send, MessageCircle } from "lucide-react";
 
 export default function ContatoClientPage() {
     const [formData, setFormData] = useState({
@@ -222,6 +222,23 @@ export default function ContatoClientPage() {
                                             className="text-anil-500 hover:text-anil-600"
                                         >
                                             contato@hunamy.com.br
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div className="flex items-start gap-4">
+                                    <MessageCircle className="w-6 h-6 text-anil-500 flex-shrink-0 mt-1" />
+                                    <div>
+                                        <h3 className="font-dmsans font-semibold text-grafite-900 mb-1">
+                                            WhatsApp
+                                        </h3>
+                                        <a
+                                            href="https://wa.me/5579981164514"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-anil-500 hover:text-anil-600"
+                                        >
+                                            (79) 98116-4514
                                         </a>
                                     </div>
                                 </div>
