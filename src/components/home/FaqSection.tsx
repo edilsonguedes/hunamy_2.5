@@ -4,7 +4,7 @@ export default function FaqSection() {
     return (
         <>
             {/* Values / Manifesto Section */}
-            <section className="py-20 bg-gradient-to-b from-black to-[#0f0f0f]" id="manifesto">
+            <section className="pt-8 pb-20 bg-gradient-to-b from-black to-[#0f0f0f]" id="manifesto">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center max-w-3xl mx-auto mb-16">
                         <span className="text-indigo-400 font-medium tracking-wide uppercase text-sm font-quicksand">Manifesto</span>

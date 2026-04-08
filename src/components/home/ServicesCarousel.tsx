@@ -38,7 +38,7 @@ export default function ServicesCarousel() {
     ];
 
     return (
-        <section className="py-20 bg-black relative">
+        <section className="pt-20 pb-8 bg-black relative">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
                 <h2 className="text-3xl sm:text-4xl font-bold font-heading text-white mb-4">
                     Nossos Pilares de <span className="text-indigo-500">Transformação</span>
