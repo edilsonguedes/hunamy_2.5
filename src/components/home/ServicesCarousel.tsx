@@ -98,6 +98,17 @@ export default function ServicesCarousel() {
                     <ArrowRight className="w-6 h-6" />
                 </button>
             </div>
+
+            <div className="mt-8 flex justify-center px-4">
+                <a
+                    href="https://wa.me/5579981164514"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-full shadow-[0_0_20px_rgba(79,70,229,0.3)] hover:shadow-[0_0_30px_rgba(79,70,229,0.5)] transition-all duration-300 font-heading text-lg"
+                >
+                    Falar com Especialista
+                </a>
+            </div>
         </section>
     );
 }
